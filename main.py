@@ -2,7 +2,7 @@ import requests
 import uuid
 import os
 from os import system
-system("title " + "instagram.com/avhs")
+system("title " + "Scrape <3")
 req = requests.session()
 UID = str(uuid.uuid4())
 logurl = 'https://i.instagram.com/api/v1/accounts/login/'
